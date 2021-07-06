@@ -15,8 +15,8 @@ https://seed.online/products/cb77327e873cfe36e061667a69fbba10bc2eec13285aa862a05
 # メッセージ(OUTPUT)
 |  概要  |  メッセージキー  | 発火条件 |戻り値| 補足|
 | ---- | ---- | ---- | ---- | ---- |
-|  残り時間受け取り  |  RES_lightjug/timer/v1/remindSec  | なし ||
-|  タイマー開始  |  PUSH_lightjug/timer/v1/start  | 時間(Sec) ||
-|  タイマー終了  |  PUSH_lightjug/timer/v1/end  | なし ||
+|  残り時間受け取り  |  RES_lightjug/timer/v1/remindSec  |残り時間取得リクエスト受取時 |なし |
+|  スタート  |  PUSH_lightjug/timer/v1/start  |タイマースタート時 |時間(Sec) |
+|  終了  |  PUSH_lightjug/timer/v1/end  |タイマー終了時 |なし |
 
 
